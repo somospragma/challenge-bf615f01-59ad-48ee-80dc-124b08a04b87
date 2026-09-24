@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "condiciones": [
+      {"nombre": "es_mayor_de_edad", "valor": true},
+      {"nombre": "tiene_ingresos", "valor": true}
+    ],
+    "resultado": "aprobado"
+  },
+  {
+    "id": 2,
+    "condiciones": [
+      {"nombre": "es_mayor_de_edad", "valor": false},
+      {"nombre": "tiene_ingresos", "valor": true}
+    ],
+    "resultado": "rechazado"
+  },
+  {
+    "id": 3,
+    "condiciones": [
+      {"nombre": "es_mayor_de_edad", "valor": true},
+      {"nombre": "tiene_ingresos", "valor": false}
+    ],
+    "resultado": "rechazado"
+  },
+  {
+    "id": 4,
+    "condiciones": [
+      {"nombre": "es_mayor_de_edad", "valor": false},
+      {"nombre": "tiene_ingresos", "valor": false}
+    ],
+    "resultado": "rechazado"
+  }
+]

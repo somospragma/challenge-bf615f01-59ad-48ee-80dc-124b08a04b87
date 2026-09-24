@@ -1,0 +1,11 @@
+id,valor,es_valido
+1,1,true
+2,100,true
+3,101,false
+4,-1,false
+5,50,true
+6,150,false
+7,0,true
+8,200,false
+9,75,true
+10,125,true

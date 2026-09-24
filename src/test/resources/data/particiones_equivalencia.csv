@@ -1,0 +1,11 @@
+id,valor,particion
+1,1,valido
+2,100,valido
+3,101,invalido
+4,-1,invalido
+5,50,valido
+6,150,invalido
+7,0,valido
+8,200,invalido
+9,75,valido
+10,125,valido
